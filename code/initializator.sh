@@ -1,4 +1,4 @@
 #!/bin/bash
 #should be placed in /etc/profile.d/
 
-sh ~/Pulpit/motion/code/startup.sh
+sh ~/Pulpit/HomeSurveillanceSystem/code/startup.sh
