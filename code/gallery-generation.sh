@@ -1,4 +1,4 @@
 #!/bin/sh
 
 
-llgal -R -d /home/monitoring/Kamery/
+llgal -w 10 -R -d /home/monitoring/Kamery/
