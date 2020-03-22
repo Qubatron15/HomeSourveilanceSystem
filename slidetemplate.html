@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=LLGAL-CODESET" />
+    <meta name="generator" content="llgal LLGAL-OPTIONS" />
+    <title><!--SLIDE-TITLE--></title>
+    <link rel="stylesheet" type="text/css" href="<!--CSS-->" />
+    <link rel="contents" href="<!--INDEX-FILE-->" />
+    <link rel="index" href="<!--INDEX-FILE-->" />
+    <link rel="next" href="<!--NEXT-SLIDE-->" />
+    <link rel="previous" href="<!--PREV-SLIDE-->" />
+    <link rel="prefetch" href="<!--NEXT-SLIDE-->" />
+  </head>
+
+  <body>
+    <!-- Please note that the comments in ALL CAPS are the places where llgal
+         inserts the appropriate file names.  You may move them around (or
+         remove them) to customize your slides at will.  To see how this
+         works just compare the template file with a generated slide. -->
+
+    <p class="center">
+      <a id="next-slide" href="<!--PREV-SLIDE-->">Później</a>
+      &nbsp; &nbsp; &nbsp;
+      <a href="<!--INDEX-FILE-->">Wszystkie</a>
+      &nbsp; &nbsp; &nbsp;
+      <a id="previous-slide" href="<!--NEXT-SLIDE-->">Wcześniej</a>
+    </p>
+
+    <div class="center"><table class="slide"><tr><td class="<!--THIS-SLIDE-STYLE-->">
+      <!--THIS-SLIDE-->
+    </td></tr></table></div>
+
+    <p class="caption">
+      <!--IMAGE-CAPTION-->
+    </p>
+
+    <p class="center">
+      <a id="next-slide" href="<!--PREV-SLIDE-->">Później</a>      
+      &nbsp; &nbsp; &nbsp;
+      <a href="<!--INDEX-FILE-->">Wszystkie</a>
+      &nbsp; &nbsp; &nbsp;
+      <a id="previous-slide" href="<!--NEXT-SLIDE-->">Wcześniej</a>
+    </p>
+
+    <div class="center">
+      <!--EXIF-TABLE-->
+    </div>
+
+    <script>
+        let previousSlide = document.querySelector('#previous-slide');
+        let nextSlide = document.querySelector('#next-slide');
+        function checkKey(e) {
+            e = e || window.event;
+            if (e.keyCode == '39') {
+                previousSlide.click();
+            }
+            else if (e.keyCode == '37') {
+                nextSlide.click();
+            }
+        }
+        document.onkeydown = checkKey; 
+    </script>
+  </body>
+</html>
