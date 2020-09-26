@@ -61,6 +61,9 @@ Prefered:
 Whole applications list:  
 ```https://play.google.com/store/apps/collection/cluster?clp=ggELCglpcCBjYW1lcmE%3D:S:ANO1ljKQ_iY&gsr=Cg6CAQsKCWlwIGNhbWVyYQ%3D%3D:S:ANO1ljIp4fI```  
   
+**Maginon IPC-20C english manual**
+```https://www.manualslib.com/manual/1203280/Maginon-Ipc-20c.html?page=38#manual```  
+  
 ***Freaks and Geeks*** **comedy series**  
 Don't know why it was in the tabs but probably worth to see  
 ```https://www.google.com/search?client=firefox-b-d&q=freaks+and+geeks```  
